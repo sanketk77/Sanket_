@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Canvas</title>
+  <script src="https://kit.fontawesome.com/cb8a33a716.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="toolbar">
+    <button id="toolToggle" class="tool-btn active" title="Brush Tool">
+      <i class="fa-solid fa-paintbrush"></i> Brush
+    </button>
+    <button id="eraserToggle" class="tool-btn" title="Eraser Tool">
+      <i class="fa-solid fa-eraser"></i> Eraser
+    </button>
+    <div class="toolbar-divider"></div>
+    <button id="undoBtn" class="tool-btn" title="Undo (Ctrl+Z)">
+      <i class="fa-solid fa-undo"></i> Undo
+    </button>
+    <button id="redoBtn" class="tool-btn" title="Redo (Ctrl+Y)">
+      <i class="fa-solid fa-redo"></i> Redo
+    </button>
+    <div class="toolbar-divider"></div>
+    <div id="onlineUsers" class="online-users" title="Online users"></div>
+    <label for="colorPicker">Pen Color:</label>
+    <input type="color" id="colorPicker" value="#BADA55">
+    <label for="lineWidth">Brush Size:</label>
+    <input type="range" id="lineWidth" min="1" max="50" value="10">
+    <span id="lineWidthValue">10</span>
+  </div>
+  <div class="container">
+    <canvas id="draw" width="800" height="800"></canvas>
+  </div>
+  <script src="canvas.js"></script>
+</body>
+</html>

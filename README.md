@@ -1,8 +1,8 @@
-# Real-Time Canvas Party 🎨
+# Canvas_Collab 🎨
 
 A collaborative real-time drawing application where multiple users can draw together on a shared canvas simultaneously using WebSockets.
 
-![Real-Time Canvas Party Preview]
+
 ## ✨ Features
 
 - **Real-Time Collaborative Drawing**: Multiple users can draw simultaneously and see each other's work instantly
@@ -24,7 +24,7 @@ A collaborative real-time drawing application where multiple users can draw toge
 
 ```bash
 # Clone the repository
-git clone https://github.com/AniBande/Colab_Canvas-.git
+git clone (https://github.com/sanketk77/Sanket_.git)
 cd Real-Time-Canvas-Party
 
 # Install dependencies
